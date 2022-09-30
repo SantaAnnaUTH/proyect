@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&display=swap');
+
+body{
+	background-color: #424949;
+	font-family: 'fira Sans', Sans Serif;
+	line-height: 1.6em;
+	margin: 0;
+
+
+}
+.contenedor1 {
+		width: 80%;
+		margin: auto;
+		overflow: hidden;
+		font-family: sans-serif;
+}
+.contenedor2 {
+		width: 80%; 
+		margin: auto;
+		overflow: hidden;
+		text-align: left;
+		padding: auto;
+		flex: auto;
+		color: #fff;
+		font-family: sans-serif;
+}
+.contenedor {
+		width: 80%;
+		margin: auto;
+		overflow: hidden;
+		text-align: right;
+		align-items: center;
+		font-family: sans-serif;
+}
+
+header{
+
+background-color: #17202A ;
+color: #F64C72;
+}
+
+nav{
+		background-color: #2E4053 ;
+		color: #fff;
+		margin: 0;
+         height: 30px;
+         vertical-align: center;
+
+}
+
+nav ul{
+	padding: 0;
+	list-style: none;
+}
+
+nav li{
+	display: inline;
+}
+
+nav a{
+	color: #99738E;
+	text-decoration: none;
+	font-size: 20px;
+	padding-right: 15px;
+}
+
+nav a:hover{
+	text-decoration: underline;
+	color: #f64c72;
+}
+
+#presentacion{
+	background-image: url("https://cdn.create.vista.com/files/dp/st2_2124221_461237424_thumb_450.jpg?");
+	min-height: 300px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+#presentacion h2{
+	color: #fff;
+	font-size: 50px;
+	line-height: 1.6em;
+	padding-top: 30px;
+}
+
+#presentacion1{
+	background-image: url("https://previews.123rf.com/images/spaintervfx/spaintervfx1703/spaintervfx170300047/75210983-naranja-fondo-azul-con-c%C3%B3digo-html.jpg");
+	min-height: 300px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+#presentacion1 h2{
+	color: #fff;
+	font-size: 50px;
+	line-height: 1.6em;
+	padding-top: 30px;
+}
+
+#presentacion2{
+	background-image: url("https://thumbs.dreamstime.com/b/placa-de-circuito-abstracta-del-fondo-la-tecnolog%C3%ADa-y-c%C3%B3digo-html-d-105501170.jpg");
+	min-height: 300px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+#presentacion2 h2{
+	color: #fff;
+	font-size: 50px;
+	line-height: 1.6em;
+	padding-top: 30px;
+}
+
+#presentacion3{
+	background-image: url("https://iphoneros.com/wp-content/uploads/2018/07/macbookpro2018.jpg");
+	min-height: 300px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+#presentacion3 h2{
+	color: #fff;
+	font-size: 50px;
+	line-height: 1.6em;
+	padding-top: 30px;
+}
+
+/*-------------------------------------------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------------------------------------------------*/
+
+main{
+		float:  left;
+		width:70%;
+		padding: 0 30px;
+		box-sizing: border-box;
+		text-align: justify;
+	}
+
+
+aside{
+
+	float: right;
+	width: 30%;
+	background-color: #f64c72;
+	color:#fff;
+	padding:30px; 
+	box-sizing: border-box;
+	text-align: justify;
+    }
+
+footer{
+	background-color: #2E4053;
+	color: #ccc;
+	text-align: center;
+	padding: 5px;
+	margin-top: 40px; 
+
+       }
+
+@media(max-width: 600px){
+
+	main, aside{ width: 100%
+		 float:none; }
+}
+		
